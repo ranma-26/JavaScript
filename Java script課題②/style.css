@@ -1,0 +1,48 @@
+body {
+  font-size: 20px;
+}
+
+.container {
+  margin:40px auto;
+  width: 500px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin:auto 0;
+  display: flex;
+}
+
+.menu-title {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  padding: 8px 0;
+  text-decoration: none;
+  color:#000;
+}
+
+.menu-title.active {
+  box-shadow: 0 0 10px #048;
+  border-radius: 4px;
+  background-color: rgb(238, 195, 248);
+}
+.contents.active {
+  text-align: left;
+  padding-top: 10px;
+  border: 5px solid #000;
+  display: block;
+}
+
+.menu-title:hover{
+  background-color: #DDDDDD;
+  
+}
+
+.contents{
+  display: none;
+  color: #777;
+  padding:10px;
+  
+}
